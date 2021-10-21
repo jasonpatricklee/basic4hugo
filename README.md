@@ -8,7 +8,7 @@ Keep the focus on writing.
 4. `cd SITE_NAME`
 5. `git init`
 6. `git submodule add https://github.com/iasonlee/basic_hugo.git themes/basic`
-7. take folder basic and put it into themes directly (not tested)
+7. take folder basic and put it into themes directly (un-nested)
 8. add `theme = 'basic'` and change baseURL to `baseURL = '/'` in config.toml 
 9. delete the filler content in themes/basic/content/Words and change the index and titles
 10. create your first post `hugo new Words/title.md`
