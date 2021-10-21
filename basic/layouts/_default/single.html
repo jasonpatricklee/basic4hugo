@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <title>Basic for Hugo - {{ .Title }}</title>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <div class="main-content-wrapper">
+      <h1 class="title">{{ .Title }}</h1>
+      <div class="main-nav">
+        <p class="in-post-date">{{ dateFormat "Jan 06, 2006" .Date }}</p>
+        <p
+          style="
+            margin: 0 .2rem;
+            line-height: 0.2;
+            font-size: 1rem;
+            color: var(--body-inactive);
+          "
+        >
+          
+        </p>
+        {{ $tag := .Params.tags }} {{ with site.GetPage "/tags/%s" $tag }}
+        <a href="{{ .RelPermalink }}" class="tag-link">{{ $tag }}</a>
+        {{ end }}
+        <a href="javascript:history.back()" class="nav-link">Back</a>
+      </div>
+      <div class="main-content">{{ .Content }}</div>
+      {{ partial "social" }}
+    </div>
+  </body>
+</html>

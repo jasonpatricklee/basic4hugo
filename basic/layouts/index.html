@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic for Hugo</title>
+  </head>
+  <body>
+    <div class="main-content-wrapper">
+      <h1 class="title">Basic for Hugo</h1>
+      <div class="main-nav">
+        <a href="/" class="nav-link">Home</a>
+        {{ with site.GetPage "/tags/Extras" }}
+        <a href="{{ .RelPermalink }}" class="nav-link">Extras</a> {{end}}
+        <a href="/words" class="nav-link">Words</a>
+      </div>
+      <div class="main-content">
+        <p>
+          A <strong>minimal</strong> light theme for quick writing with little
+          interference.
+        </p>
+        <p>
+          This theme is great to use as a portfolio, blog, or a starting point
+          for a theme with some more personality. Read more about the theme
+          <a href="/words/first">here</a>.
+        </p>
+        {{ partial "social" }}
+      </div>
+    </div>
+  </body>
+</html>

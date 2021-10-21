@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic</title>
+    <link>/</link>
+    <description>Recent content on Basic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Oct 2021 19:04:33 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second, filler post</title>
+      <link>/words/second/</link>
+      <pubDate>Tue, 05 Oct 2021 19:04:33 -0700</pubDate>
+      
+      <guid>/words/second/</guid>
+      <description>Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product.
+It is important to understand that dummy text has no meaning whatsoever. Its sole purpose is to fill out blank spaces with “word-like” content, without making any copyright infringements.
+Dummy text is also known as filler text or placeholder text, and it has been used for a long time in the various fields of online publishing.</description>
+    </item>
+    
+    <item>
+      <title>First post on this site</title>
+      <link>/words/first/</link>
+      <pubDate>Fri, 10 Sep 2021 19:04:33 -0700</pubDate>
+      
+      <guid>/words/first/</guid>
+      <description>Why Basic for Hugo? Quickly publish your content with Hugo&amp;rsquo;s features of Markdown processing, and this theme&amp;rsquo;s ease of use.
+Unordered lists  unordered lists second item  Ordered lists  ordered lists second item  Blockquotes  Blockquotes look like this with all of the text after the &amp;gt; symbol in Markdown. These are good for a light emphasis
+ Paragraphs Basic paragraphs look like this.</description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>/images/</link>
+      <pubDate>Fri, 10 Sep 2021 19:04:33 -0700</pubDate>
+      
+      <guid>/images/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

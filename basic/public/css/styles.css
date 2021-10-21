@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+:root {
+    --font: "Inter", sans-serif;
+    --body: rgb(53, 53, 53);
+    --body-hover: rgb(135, 135, 135);
+    --body-inactive: rgb(115, 115, 115);
+    --body-most-inactive: rgb(170, 170, 170);
+    --light-inactive: rgba(245, 245, 245, .75);
+    --social-link: #3093ef;
+    --social-link-hover: #6bb7ff;
+}
+html {
+    font-size: 14px;
+}
+@media (min-width: 48em) {
+    html {
+        font-size: 16px;
+    }
+}
+.main-content-wrapper {
+    max-width: 42rem;
+    margin: 5rem auto;
+    padding: 0 0 3rem 1.5rem;
+}
+.main-content {
+    padding-right: 1rem;
+}
+h1,
+h2,
+h3,
+a,
+p,
+li {
+    font-family: var(--font);
+    color: var(--body);
+}
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    letter-spacing: -.035rem;
+}
+h1 {
+    font-size: 2rem;
+}
+ul,
+ol {
+    margin-left: 2rem;
+    padding-left: 0;
+}
+p,
+a,
+li {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+a {
+    padding-bottom: .1rem;
+    color: var(--social-link);
+}
+.main-nav {
+    width: 100%;
+    height: 1rem;
+    margin: .25rem 0 2rem 0;
+}
+.main-nav a {
+    float: right;
+    color: var(--body);
+    border-bottom: 2px solid var(--body);
+}
+.main-nav a:hover {
+    color: var(--body-hover);
+    border-bottom: 2px solid var(--body-hover);
+}
+.main-nav a,
+.social-nav a, 
+.main-nav p {
+    display: inline;
+    margin: 0 1rem 0 0;
+    text-decoration: none;
+    line-height: .9;
+}
+.social-nav {
+    margin: 2rem 0 0 0;
+}
+.social-nav a {
+    float: left;
+    color: var(--social-link);
+    border-bottom: 2px solid var(--social-link);
+}
+.social-nav a:hover {
+    color: var(--social-link-hover);
+    border-bottom: 2px solid var(--social-link-hover);
+}
+.post-link {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: var(--body);
+}
+.post-link:hover {
+    color: var(--body-hover);
+}
+.post-summary {
+    font-size: 1rem;
+    color: var(--body-inactive);
+}
+.post-date {
+    font-size: .8rem;
+    color: var(--body-most-inactive);
+}
+.in-post-date {
+    font-size: 1rem;
+    color: var(--body-inactive);
+}
+.post-block {
+    margin: 3rem 0;
+}
+blockquote {
+    padding: 0;
+    margin: 0;
+}
+blockquote p {
+    background-color: var(--light-inactive);
+    border-radius: 4px;
+    padding: 1rem;
+}
+img {
+    width: 100%;
+}
